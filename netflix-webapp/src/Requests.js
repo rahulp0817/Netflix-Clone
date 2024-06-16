@@ -1,4 +1,4 @@
-const Api_key = "2b6497ae0720429617f05f93bbfc6193";
+const Api_key = api key;
 
 // const request = await axios.get(`${requests.fetchTopRated}&api_key=${apiKey}`);
 const requests = {
