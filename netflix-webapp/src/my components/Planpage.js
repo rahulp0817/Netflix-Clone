@@ -58,7 +58,7 @@ function Planpage() {
       const { sessionId } = docSnap.data();
       console.log(sessionId)
       if (sessionId) {
-        const Stripe = await loadStripe("pk_test_51ODtJRSJrgAu8yQ09yEch3uP3zggPeZe9r2IoR6J8eYtGW2QbGxIH7Kcyu35QYmDb1a6FhEcD78hFjyORJTD6d7s00uItJJeoy");
+        const Stripe = await loadStripe("key_value_stripe");
         Stripe.redirectToCheckout({ sessionId });
       }
     } else {
