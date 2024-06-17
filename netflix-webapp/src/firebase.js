@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCwhvNtNPLdAy4XzKvqUcjVee3AbiSgdh4",
+  apiKey: key,
   authDomain: "movie-webapp-12951.firebaseapp.com",
   projectId: "movie-webapp-12951",
   storageBucket: "movie-webapp-12951.appspot.com",
